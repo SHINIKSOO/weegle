@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body{
+   background-color: #fafafa;
+   margin-bottom: 100px;
+}
+
+h3{
+    margin-right: 50px;
+}
+
+#header{
+    
+    padding:10px 0 0 350px;
+}
+
+body{
+ margin:0 auto;}
+
+/* 로고 사이즈 비율맞춰 사이즈줄이기 */
+.logo{
+  width: auto; height: auto;
+  max-width: 130px;
+  max-height: 100px;
+  margin-right: 200px;
+  
+}
+/*검색창*/
+.search{
+    background-image: url('../image/question.jpg');
+    background-repeat: no-repeat;
+    background-position:70px center;
+    padding-left:18px;
+    margin-bottom: 5px;
+    
+    padding:7px;
+    text-align: center;
+    width:200px;
+    border:solid 1px rgba(var(--b6a,219,219,219),1);
+    
+}
+/*상단 우측 사진*/
+.min_menu{
+    width: auto; height: auto;
+    max-width: 150spx;
+    margin-bottom: -20px;
+    margin-left: 100px;
+    
+
+}
+#section{
+    display: flex;
+   justify-content: center;
+    margin: 25px 0 0 -70px;
+    
+ 
+    
+}
+/*메인사진*/
+.profile{
+    width: auto; height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 80px; 
+    
+}
+
+/*메인사진과 소개글 여백을 두기 위함*/
+.left{
+ display: flex;
+ margin-right: 50px;
+ 
+}
+
+
+h3{
+    display: inline-block;
+    
+}
+/*버튼만*/
+.btn1{
+ background-color: #0095f6;
+ color:white;
+ border: 1px white;
+ width: 80px;
+ height: 30px;
+ border-radius: 5px;
+ font-weight: bolder;
+}
+.btn2{
+    background-color: #1c9ef5;
+    color:white;
+    border: 1px white;
+    height:20px;
+    border-radius: 5px;
+   }
+
+   /*ctn여백*/
+   .ctn1{
+     margin-right: 10px;
+     
+   }
+   .ctn2{
+     
+     margin-right: 10px;
+   }
+   
+  /*소개글 설정*/
+  .introduce{
+      
+      display: flex;
+      align-items: center;
+      margin-top: -40px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 1.2em;
+      flex-direction: column;
+      margin-left: 120px;
+      }
+
+      li{
+        list-style:none;
+          margin: 0;
+      }
+  #section2{
+      margin-top: 70px;
+  }
+
+   /* 중간 그림 사이즈 조절*/
+   .nav {
+    display: block;
+    width: auto; height: auto;
+    max-width: 200px;
+    max-height: 100px; 
+    margin: 0 auto;
+
+    
+    
+   }
+   /*게시글없음사진*/
+   .nothing{
+    margin-top: 90px;
+    display: block;
+    width: auto; height: auto;
+    max-width: 400px;
+    max-height: 200px; 
+    margin: 80px auto;
+    margin-bottom: 200px;
+   }
+   /*하단이미지*/
+   .end{
+   position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+   }
+ 
+   

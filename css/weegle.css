@@ -1,0 +1,83 @@
+/*글씨체적용*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/*로고사진 사이즈설정*/
+.logo{
+    display: block; 
+    margin: 0 auto;
+    height: 92px;
+    padding-top: 109px;
+     }/*로고 설정 끝*/   
+
+/*검색바 꾸미기*/
+.search{
+    position: relative;
+    max-width: 482px;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 30px;
+    }
+.searchbar{
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    height: 44px; width:482px;
+   }
+.searchbar:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    background-color: rgba(223, 225, 229, 0);
+} 
+input:focus{
+    outline: none;
+}/*검색바 꾸미기 끝*/
+
+/*검색바안 이미지들*/
+.keyboard{
+    width: auto; height: auto;
+    max-width: 20px; max-height: 20px;
+    position: absolute;
+    top:15px;
+    right: 42px;
+}
+.moresee{
+    width: auto; height: auto;
+    max-width: 20px; max-height: 20px;
+    position: absolute;
+    left: 18px;
+    top:15px
+}
+.mike{
+    position: absolute;
+    top: 9px;
+    right: 5px;
+}
+/*검색바안 이미지들 끝*/
+
+/*회색박스꾸미기*/
+.btn{
+    text-align: center;
+}
+.box{
+    background-color: #edf1f1;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    cursor: pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+ } /* 회색박스꾸미기끝*/
+
+/*하단글씨css*/
+p,a{
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+}
+.sub{
+    font-size: 0.8em;
+    text-decoration: none;
+}/*끝*/
